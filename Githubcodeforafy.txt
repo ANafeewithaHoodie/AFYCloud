@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AFYCloud | All For Your Cloud</title>
+  <link rel="icon" href="/favicon.png" type="image/png" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background-color: #0f0f0f;
+      color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: #f4f4f4;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">AFYCloud</div>
+    <nav>
+      <a href="/about.html">About</a>
+      <a href="/projects.html">Projects</a>
+      <a href="/certifications.html">Certifications</a>
+      <a href="/resume.html">Resume</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Welcome to AFYCloud</h1>
+    <p>All For Your Cloud — A home for my Azure journey, IT projects, resume, and 3D printing business.</p>
+    <p>Stay tuned for labs, tutorials, and hands-on deployments documented here.</p>
+  </main>
+  <footer>
+    &copy; 2025 AFYCloud. Built with passion and coffee.
+  </footer>
+</body>
+</html>
